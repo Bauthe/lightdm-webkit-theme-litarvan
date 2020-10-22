@@ -58,7 +58,10 @@
                         icon = 'budgie';
                     } if (key.indexOf('awesome') > -1) {
                         icon = 'awesome';
+                    } if (key.indexOf('qtile') > -1) {
+                        icon = 'qtile';
                     }
+
 
                     if (!icon) {
                         return '';
